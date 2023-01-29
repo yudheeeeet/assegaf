@@ -1,14 +1,14 @@
 @extends('layouts.master')
-@section('title', 'BUTCHER - ASSEGAF')
-@section('page-title', 'Butcher Menu')
-@section('page-subtitle', 'Butcher Page - Administrator')
+@section('title', 'LEATHER - ASSEGAF')
+@section('page-title', 'Leather Menu')
+@section('page-subtitle', 'Leather Page - Administrator')
 
 @section('konten')
 <div class="card-body">
-    <div class="card-title">Butcher</div>
+    <div class="card-title">Leather</div>
     <div class="row card-category">
         <div class="col-md-6">
-            <div>Detail Data Butchers</div>
+            <div>Detail Leather Sales</div>
         </div>
         @if(Auth::user()->role == 'admin')
         <div class="col-md-6 text-right">
